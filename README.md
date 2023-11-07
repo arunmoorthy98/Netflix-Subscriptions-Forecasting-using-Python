@@ -17,5 +17,7 @@ Now let’s get started with Time Series Forecasting using ARIMA to forecast the
 
 time_series = data.set_index('Time Period')['Subscribers']
 Here we are converting the original DataFrame into a time series format, where the Time Period column becomes the index, and the Subscribers column becomes the data
+
+
 Summary
 Using techniques like time series forecasting, Netflix can estimate the expected number of new subscribers in a given time period and better understand the growth potential of their business. It enhances operational efficiency, financial planning, and content strategy, ultimately contributing to their success and growth in the highly competitive streaming industry. I hope you liked this article on Netflix Subscriptions Forecasting using Python. Feel free to ask valuable questions in the comments section below.
